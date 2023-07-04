@@ -5,7 +5,7 @@ import language from "@/assets/language.png";
 import time from "@/assets/time.png";
 import location from "@/assets/location.png";
 
-import littlegine from "@/assets/course/2.png";
+import littlegine from "@/assets/course/4.png";
 import point from "@/assets/point.png";
 import classroom from "@/assets/classroom.png";
 import success from "@/assets/success.png";
@@ -20,6 +20,10 @@ import performance from "@/assets/performance.png";
 import learining from "@/assets/learining.png";
 import quiz from "@/assets/quiz.png";
 import competition from "@/assets/competition.png";
+import assesment from "@/assets/assesment.png";
+import twentyfour from "@/assets/24.png";
+import nurturing from "@/assets/nurturing.png";
+
 import Contact from "@/components/Contact";
 
 export const metadata = {
@@ -37,33 +41,36 @@ const page = () => {
             <div className="flex gap-3 p-2 flex-wrap sm:gap-0">
               <Link href="/">Home </Link>
               <span> / </span>
-              <Link href="/course"> Class 7 Offline Course </Link>
+              <Link href="/course"> Class 9 Offline Course </Link>
               <span> / </span>
-              <Link href="/course/Udaya-7"> Udaya-7</Link>
+              <Link href="/course/Udaya-8"> Ascent-9</Link>
             </div>
             <div className="flex flex-col justify-between  p-2">
               <h1 className="text-5xl font-bold sm:text-3xl ml-10 sm:ml-0 mt-5 sm:mt-0">
-                Udaya 7
+                Ascent
               </h1>
               <div className="flex sm:flex-wrap">
                 <div className=" w-[60%] sm:w-[100%]">
                   <p className="ml-10 sm:ml-0  mt-5   ">
-                    This program comprehensively prepares you for school and all
-                    scholastic & competitive exams at city, state & national
-                    level for your class, and lay a strong foundation for higher
-                    level scholastic & competitive exams like NTSE, NSEJS /
-                    IJSO, Pre-RMO, RMO & Green Olympiad by raising IQ of the
-                    students i.e. sharpen analytical skills & mental ability and
-                    evolve students thinking process making them capable of
-                    solving complex problems.
+                    Our program is specifically designed for students who are
+                    presently in Class VIII and will be transitioning to Class
+                    IX in the year 2023. We aim to provide comprehensive
+                    preparation to help these students excel not only in their
+                    school board examinations but also in all scholastic and
+                    competitive exams at the city, state, and national levels.
                     <span className="sm:hidden">
                       {" "}
-                      This program lays a strong foundation for competitive
-                      exams like NEET, JEE Main & JEE Advanced etc. Along with
-                      Physics, Chemistry & Mathematics, Biology is also taught
-                      in these programs. Mental ability is exhaustively taken
-                      up.
+                      Our curriculum is carefully crafted to cover all the
+                      necessary subjects and topics, ensuring that students have
+                      a strong foundation and the required knowledge to perform
+                      well in these exams. We understand the significance of
+                      exams like NTSE, NSEJS/IJSO, and RMO, and our program is
+                      tailored to prepare students for these specific exams as
+                      well. By providing a structured and focused approach, we
+                      aim to empower students with the skills, knowledge, and
+                      confidence to achieve success in their academic journey.
                     </span>
+                    <span className=""> </span>
                   </p>
                   <div className="flex flex-wrap gap-5">
                     <div className="flex ml-10 sm:ml-0  items-center gap-5 sm:gap-3 mt-3">
@@ -82,7 +89,7 @@ const page = () => {
                         alt="lang"
                         className="h-[2rem] w-[2rem]"
                       />{" "}
-                      <span className="flex justify-center">425 hrs </span>
+                      <span className="flex justify-center">500 hrs </span>
                     </div>
                   </div>
                   <div className="flex ml-10 sm:ml-0  items-center gap-5 sm:gap-3 mt-3">
@@ -123,7 +130,7 @@ const page = () => {
                         className="h-[2rem] w-[2rem]"
                       />
                       <span className="font-bold">
-                        425 + hours of classroom teaching.
+                        500 + hours of classroom teaching.
                       </span>
                     </li>
                     <li className="mt-2 flex gap-5">
@@ -191,8 +198,12 @@ const page = () => {
                   alt="success"
                   className="h-[3rem] w-[3rem] "
                 />
-                An Ideal Program for students who wish to climb the ladder of
-                academic success from Class VII itself.
+                This program comprehensively prepares you for school, boards and
+                all scholastic & competitive exams at city, state & national
+                level, including NTSE, NSEJS / IJSO, Pre-RMO & RMO by raising IQ
+                of the students i.e. sharpen analytical skills & mental ability
+                and evolve students’ thinking process making them capable of
+                solving complex problems
               </p>
             </li>
 
@@ -203,12 +214,13 @@ const page = () => {
                   alt="success"
                   className="h-[3rem] w-[3rem] "
                 />
-                This program helps the student in imbibing the fundamental of
-                subjects and development of personality. The program ‘Train the
-                Brain’ is specifically designed for overall logical thinking, IQ
-                and scientific aptitude which will be useful throughout life and
-                this program introduces the basic academic structure required to
-                excel in competitive exams.
+                This program lays a strong foundation for competitive exams like
+                NEET, JEE Main & JEE Advanced etc. and helps students to easily
+                adapt to the exponential increase in the level of academics in
+                Class XI & XII vis-a-vis those who wait till Class XI to join a
+                coaching institute. Along with Physics, Chemistry & Mathematics,
+                Social studies & Biology are also taught in this program. Mental
+                ability is exhaustively taken up.
               </p>
             </li>
           </ul>
@@ -268,14 +280,51 @@ const page = () => {
             </li>
             <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">
               {" "}
-              <Image
-                src={exam}
-                alt="steps"
-                className="h-[3rem] w-[3rem] "
-              />{" "}
-              <p className="font-bold">
-                Common Phase Tests across the country.
-              </p>
+              <div className=" flex gap-5">
+                <Image src={exam} alt="steps" className="h-[3rem] w-[3rem] " />{" "}
+                <p>
+                  <span className="font-bold">
+                    All India Open Test Series for Target NTSE:
+                  </span>
+                  You can check your current level of preparedness for
+                  Competitive exams and compete with Top students currently
+                  studying in class X through this Open Test Series, at the
+                  National Level which will also check the Fundamentals
+                  Preparation for IIT-JEE on the topics of class IX / X.
+                </p>
+              </div>
+            </li>
+            <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">
+              {" "}
+              <div className=" flex gap-5">
+                <Image
+                  src={assesment}
+                  alt="steps"
+                  className="h-[3rem] w-[3rem] "
+                />{" "}
+                <p>
+                  <span className="font-bold">
+                    Mock Board Test Series, Mock NTSE Test series across the
+                    country for all FIITJEE students.
+                  </span>
+                </p>
+              </div>
+            </li>
+            <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">
+              {" "}
+              <div className=" flex gap-5">
+                <Image
+                  src={twentyfour}
+                  alt="steps"
+                  className="h-[3rem] w-[3rem] "
+                />{" "}
+                <p>
+                  <span className="font-bold">
+                    24/7 accessible Online Test Series for JEE Advanced with
+                    deep analytics & insights
+                  </span>
+                </p>
+              </div>
             </li>
             <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">
               {" "}
@@ -337,42 +386,19 @@ const page = () => {
                 </p>
               </div>
             </li>
-            <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">
-              {" "}
-              <div className=" flex gap-5">
-                <Image src={quiz} alt="steps" className="h-[3rem] w-[3rem] " />{" "}
-                <p>
-                  Students also gain important exam practice through quizzes,
-                  phase tests, & mock tests (conducted in a simulated
-                  environment giving the students a ‘feel’ of the real exam)
-                  that can help them improve their examination temperament a
-                  necessary element for success in any competitive exam
-                </p>
-              </div>
-            </li>
+
             <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">
               {" "}
               <div className=" flex gap-5">
                 <Image
-                  src={competition}
+                  src={nurturing}
                   alt="steps"
                   className="h-[3rem] w-[3rem] "
                 />{" "}
                 <p>
-                  <span className="font-bold text-xl sm:text-lg">
-                    Relevant Competitive Examination:
-                  </span>{" "}
-                  This program comprehensively prepares you for school and all
-                  scholastic & competitive exams at city, state & national level
-                  for your class, and lay a strong foundation for higher level
-                  scholastic & competitive exams like NTSE, NSEJS / IJSO,
-                  Pre-RMO, RMO & Green Olympiad by raising IQ of the students
-                  i.e. sharpen analytical skills & mental ability and evolve
-                  students thinking process making them capable of solving
-                  complex problems. This program lays a strong foundation for
-                  competitive exams like NEET, JEE Main & JEE Advanced etc.
-                  Along with Physics, Chemistry & Mathematics, Biology is also
-                  taught in these programs. Mental ability is exhaustively taken
+                  Special support /Additional coverage of syllabus for NSEJS
+                  (Jr. Science Olympiad Stage-1) qualified students in class 9 &
+                  10 for IJSO, as this Level demands topics from higher classes.
                   up.
                 </p>
               </div>

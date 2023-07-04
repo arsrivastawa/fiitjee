@@ -5,7 +5,7 @@ import language from "@/assets/language.png";
 import time from "@/assets/time.png";
 import location from "@/assets/location.png";
 
-import littlegine from "@/assets/course/2.png";
+import littlegine from "@/assets/course/1.png";
 import point from "@/assets/point.png";
 import classroom from "@/assets/classroom.png";
 import success from "@/assets/success.png";
@@ -37,13 +37,13 @@ const page = () => {
             <div className="flex gap-3 p-2 flex-wrap sm:gap-0">
               <Link href="/">Home </Link>
               <span> / </span>
-              <Link href="/course"> Class 7 Offline Course </Link>
+              <Link href="/course"> Class 6 Offline Course </Link>
               <span> / </span>
-              <Link href="/course/Udaya-7"> Udaya-7</Link>
+              <Link href="/course/Little_Genie"> Little Genie</Link>
             </div>
             <div className="flex flex-col justify-between  p-2">
               <h1 className="text-5xl font-bold sm:text-3xl ml-10 sm:ml-0 mt-5 sm:mt-0">
-                Udaya 7
+                Little Genie
               </h1>
               <div className="flex sm:flex-wrap">
                 <div className=" w-[60%] sm:w-[100%]">
@@ -82,7 +82,7 @@ const page = () => {
                         alt="lang"
                         className="h-[2rem] w-[2rem]"
                       />{" "}
-                      <span className="flex justify-center">425 hrs </span>
+                      <span className="flex justify-center">175 hrs</span>
                     </div>
                   </div>
                   <div className="flex ml-10 sm:ml-0  items-center gap-5 sm:gap-3 mt-3">
@@ -112,7 +112,7 @@ const page = () => {
                         className="h-[2rem] w-[2rem]"
                       />
                       <span className="font-bold">
-                        Eight-phase course coverage.
+                        Four-phase course coverage.
                       </span>
                     </li>
                     <li className="mt-2 flex gap-5">
@@ -123,7 +123,7 @@ const page = () => {
                         className="h-[2rem] w-[2rem]"
                       />
                       <span className="font-bold">
-                        425 + hours of classroom teaching.
+                        175 + hours of classroom teaching.
                       </span>
                     </li>
                     <li className="mt-2 flex gap-5">
@@ -191,24 +191,40 @@ const page = () => {
                   alt="success"
                   className="h-[3rem] w-[3rem] "
                 />
-                An Ideal Program for students who wish to climb the ladder of
-                academic success from Class VII itself.
+                Success is never defined in absolute sense. It is very much a
+                subject of relative performance. Children need to imbibe the
+                spirit of competitiveness from an early age and start
+                preparation for major milestone achievements, well in advance so
+                as to avoid stress and anxiety at a later stage.
               </p>
             </li>
-
             <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">
-              <p className=" flex gap-5 font-bold">
+              <p className=" flex gap-5">
+                <Image
+                  src={classroom}
+                  alt="success"
+                  className="h-[3rem] w-[3rem] "
+                />
+                The Program Trains a Student for Overall Logical Thinking and
+                Scientific Aptitude at an early age thereby transforming the
+                Academic Life of Students. This is the time while a student
+                Encounters Change in Academic Methodology from a text based
+                Academics in Class V to a Matured Academic Life in Class VI and
+                beyond.
+              </p>
+            </li>
+            <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">
+              <p className=" flex gap-5">
                 <Image
                   src={guide}
                   alt="success"
                   className="h-[3rem] w-[3rem] "
                 />
-                This program helps the student in imbibing the fundamental of
-                subjects and development of personality. The program ‘Train the
-                Brain’ is specifically designed for overall logical thinking, IQ
-                and scientific aptitude which will be useful throughout life and
-                this program introduces the basic academic structure required to
-                excel in competitive exams.
+                This program will also guide the students to approach Science &
+                Mathematics in an objective manner to solve complex numerical
+                problems. Biology will also be an integral part of this Program.
+                Parents will be able to notice substantial difference in the
+                analytical skills and IQ of their little ones with this program.
               </p>
             </li>
           </ul>
@@ -225,7 +241,7 @@ const page = () => {
               />{" "}
               <p>
                 Entire course will be covered in{" "}
-                <span className="font-bold">8 phases.</span>
+                <span className="font-bold">4 phases.</span>
               </p>
             </li>
             <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">

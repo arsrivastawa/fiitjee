@@ -5,7 +5,7 @@ import language from "@/assets/language.png";
 import time from "@/assets/time.png";
 import location from "@/assets/location.png";
 
-import littlegine from "@/assets/course/2.png";
+import littlegine from "@/assets/course/3.png";
 import point from "@/assets/point.png";
 import classroom from "@/assets/classroom.png";
 import success from "@/assets/success.png";
@@ -37,13 +37,13 @@ const page = () => {
             <div className="flex gap-3 p-2 flex-wrap sm:gap-0">
               <Link href="/">Home </Link>
               <span> / </span>
-              <Link href="/course"> Class 7 Offline Course </Link>
+              <Link href="/course"> Class 8 Offline Course </Link>
               <span> / </span>
-              <Link href="/course/Udaya-7"> Udaya-7</Link>
+              <Link href="/course/Udaya-8"> Udaya-8</Link>
             </div>
             <div className="flex flex-col justify-between  p-2">
               <h1 className="text-5xl font-bold sm:text-3xl ml-10 sm:ml-0 mt-5 sm:mt-0">
-                Udaya 7
+                Udaya 8
               </h1>
               <div className="flex sm:flex-wrap">
                 <div className=" w-[60%] sm:w-[100%]">
@@ -82,7 +82,7 @@ const page = () => {
                         alt="lang"
                         className="h-[2rem] w-[2rem]"
                       />{" "}
-                      <span className="flex justify-center">425 hrs </span>
+                      <span className="flex justify-center">220 hrs </span>
                     </div>
                   </div>
                   <div className="flex ml-10 sm:ml-0  items-center gap-5 sm:gap-3 mt-3">
@@ -112,7 +112,7 @@ const page = () => {
                         className="h-[2rem] w-[2rem]"
                       />
                       <span className="font-bold">
-                        Eight-phase course coverage.
+                        Four-phase course coverage.
                       </span>
                     </li>
                     <li className="mt-2 flex gap-5">
@@ -123,7 +123,7 @@ const page = () => {
                         className="h-[2rem] w-[2rem]"
                       />
                       <span className="font-bold">
-                        425 + hours of classroom teaching.
+                        220 + hours of classroom teaching.
                       </span>
                     </li>
                     <li className="mt-2 flex gap-5">
@@ -192,7 +192,7 @@ const page = () => {
                   className="h-[3rem] w-[3rem] "
                 />
                 An Ideal Program for students who wish to climb the ladder of
-                academic success from Class VII itself.
+                academic success from Class VIII itself.
               </p>
             </li>
 
@@ -225,7 +225,7 @@ const page = () => {
               />{" "}
               <p>
                 Entire course will be covered in{" "}
-                <span className="font-bold">8 phases.</span>
+                <span className="font-bold">4 phases.</span>
               </p>
             </li>
             <li className="mt-2 flex gap-5 items-center bg-primary-light shadow-lg rounded-lg p-4">

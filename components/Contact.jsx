@@ -10,7 +10,19 @@ const Contact = () => {
   };
 
   const handleInputChange = () => {
-    setIsClicked(true);
+    setIsOpen(true);
+  };
+
+  const [isFocused, setIsFocused] = useState({});
+
+  const handleFocus = (fieldName) => {
+    setIsFocused((prev) => ({ ...prev, [fieldName]: true }));
+  };
+
+  const handleBlur = (fieldName, e) => {
+    if (e.target.value === "") {
+      setIsFocused((prev) => ({ ...prev, [fieldName]: false }));
+    }
   };
 
   const handleSubmit = (e) => {
@@ -39,10 +51,10 @@ const Contact = () => {
     window.history.replaceState({}, document.title, window.location.pathname);
   };
 
-  useEffect(() => {
-    // Scroll to the top of the screen on component mount
-    window.scrollTo(0, 0);
-  }, [handleSubmit]);
+  // useEffect(() => {
+  //   // Scroll to the top of the screen on component mount
+  //   window.scrollTo(0, 0);
+  // }, [handleSubmit]);
 
   return (
     <div className="p-4 mt-5 sm:mt-0">
@@ -62,37 +74,60 @@ const Contact = () => {
             >
               <div className="flex justify-between gap-6 flex-wrap">
                 <div className="text-black text-base leading-6 font-normal tracking-tight border-box cursor-text inline-flex items-center relative font-rubik">
-                  <input
-                    placeholder="Your Name"
-                    name="Name"
-                    type="text"
-                    required
-                    className="text-base leading-6 bg-opacity-0 border-b-golden border-b border-primary border-solid w-[25rem] sm:w-[18rem] h-6 p-1 box-border outline-none appearance-none"
-                  />
+                  <div className="relative">
+                    <input
+                      placeholder={isFocused["Name"] ? "" : "Your Name"}
+                      name="Name"
+                      type="text"
+                      required
+                      className="text-base leading-6 bg-opacity-0 border-b-golden border-b border-primary border-solid w-[25rem] sm:w-[18rem] h-6 p-1 box-border outline-none appearance-none"
+                      onFocus={() => handleFocus("Name")}
+                      onBlur={(e) => handleBlur("Name", e)}
+                    />
+                    {isFocused["Name"] && (
+                      <label className="absolute font-bold text-sm top-0 left-0 -mt-3 ml-2 text-gray ">
+                        Your Name
+                      </label>
+                    )}
+                  </div>
                 </div>
                 <div className="text-black text-base leading-6 font-normal tracking-tight border-box cursor-text inline-flex items-center relative font-rubik">
                   <input
-                    placeholder="Your Email"
+                    placeholder={isFocused["Email"] ? "" : "Your Email"}
                     name="Email"
                     type="text"
                     required
                     className="text-base leading-6 bg-opacity-0 border-b-golden border-b border-primary border-solid w-[25rem] sm:w-[18rem] h-6 p-1 box-border outline-none appearance-none"
+                    onFocus={() => handleFocus("Email")}
+                    onBlur={(e) => handleBlur("Email", e)}
                   />
+                  {isFocused["Email"] && (
+                    <label className="absolute font-bold text-sm top-0 left-0 -mt-3 ml-2 text-gray ">
+                      Your Email
+                    </label>
+                  )}
                 </div>
               </div>
-              <div className="flex justify-between gap-6 flex-wrap">
+              <div className="flex justify-between mt-5 sm:mt-0 gap-6 flex-wrap">
                 <input
-                  placeholder="Your Mobile Number"
+                  placeholder={isFocused["Number"] ? "" : "Your Mobile Number"}
                   name="Number"
                   type="tel"
                   required
                   className="text-base leading-6 bg-opacity-0 border-b-golden border-b border-primary border-solid w-[25rem] sm:w-[18rem] h-6 p-1 box-border outline-none appearance-none"
+                  onFocus={() => handleFocus("Number")}
+                  onBlur={(e) => handleBlur("Number", e)}
                 />
+                {isFocused["Number"] && (
+                  <label className="absolute font-bold text-sm top-0 left-0 -mt-3 ml-2 text-gray ">
+                    Your Mobile Number
+                  </label>
+                )}
                 <div className="relative">
                   <select
                     name="Class"
                     required
-                    className="text-base leading-6 bg-opacity-0 border-b-golden border-b bg-primary-light border-primary border-solid w-[25rem] sm:w-[18rem] h-6  pl-2 pr-8 box-border outline-none appearance-none text-[#A7ADB8]"
+                    className="text-base leading-6 bg-opacity-0 border-b-golden border-b bg-primary-light border-primary border-solid w-[25rem] sm:w-[18rem] h-6 pl-2 pr-8 box-border outline-none appearance-none text-[#A7ADB8]"
                   >
                     <option
                       value=""
@@ -138,12 +173,18 @@ const Contact = () => {
                 </div>
               </div>
               <input
-                placeholder="Your Message"
+                placeholder={isFocused["Message"] ? "" : "Your Message"}
                 name="Message"
                 type="text"
-                required
-                className="w-full h-[5rem] text-base leading-6 bg-opacity-0 border-b-golden border-b border-primary border-solid sm:w-[18rem] p-1 box-border outline-none appearance-none animate-pulse"
+                className="w-full h-[5rem] text-base leading-6 bg-opacity-0 border-b-golden border-b border-primary border-solid sm:w-[18rem] p-1 box-border outline-none appearance-none "
+                onFocus={() => handleFocus("Message")}
+                onBlur={(e) => handleBlur("Message", e)}
               />
+              {isFocused["Message"] && (
+                <label className="absolute font-bold text-sm top-0 left-0 -mt-3 ml-2 text-gray ">
+                  Your Email
+                </label>
+              )}
               <div className="bg-red p-4 w-[10rem] flex rounded-lg justify-center">
                 <input
                   name="Name"

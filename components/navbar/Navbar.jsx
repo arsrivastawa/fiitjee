@@ -103,16 +103,12 @@ const Navbar = () => {
         </Link>
       </div>
       <div id="navList" className={`${styles.navbarList} flex justify-center`}>
-        <Link href="https://fiitjeedhanbad.com/about.html" legacyBehavior>
-          <a className={styles.navLink} target="_blank">
-            About FIITJEE
-          </a>
+        <Link href="/about" legacyBehavior>
+          <a className={styles.navLink}>About FIITJEE</a>
         </Link>
 
-        <Link href="https://fiitjeedhanbad.com/contact.html" legacyBehavior>
-          <a className={styles.navLink} target="_blank">
-            Why FIITJEE
-          </a>
+        <Link href="/why" legacyBehavior>
+          <a className={styles.navLink}>Why FIITJEE</a>
         </Link>
 
         <select
@@ -143,15 +139,11 @@ const Navbar = () => {
             Student Corner
           </a>
         </Link>
-        <Link href="https://fiitjeedhanbad.com/contact.html" legacyBehavior>
-          <a className={styles.navLink} target="_blank">
-            Gallery
-          </a>
+        <Link href="/gallery" legacyBehavior>
+          <a className={styles.navLink}>Gallery</a>
         </Link>
-        <Link href="https://fiitjeedhanbad.com/contact.html" legacyBehavior>
-          <a className={styles.navLink} target="_blank">
-            Contact Us
-          </a>
+        <Link href="/contact-us" legacyBehavior>
+          <a className={styles.navLink}>Contact Us</a>
         </Link>
       </div>
 

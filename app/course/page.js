@@ -1,9 +1,19 @@
 import Image from "next/image";
 import React from "react";
-import abc from "@/assets/IMG.jpg";
-import little from "@/assets/littleGenie.jpg";
 import hourglass from "@/assets/hourglass.png";
 import Link from "next/link";
+import littleg from "@/assets/course/1.png";
+import tow from "@/assets/course/2.png";
+import three from "@/assets/course/3.png";
+import four from "@/assets/course/4.png";
+import five from "@/assets/course/5.png";
+import six from "@/assets/course/6.png";
+import seven from "@/assets/course/7.png";
+import eight from "@/assets/course/8.png";
+import nine from "@/assets/course/9.png";
+import ten from "@/assets/course/10.png";
+import eleven from "@/assets/course/11.png";
+import twelve from "@/assets/course/12.png";
 
 export const metadata = {
   title: "FIITJEE Bokaro || Course Details",
@@ -15,25 +25,72 @@ const page = () => {
   return (
     <div className="bg-[#F8FAFC]">
       <div className="bggg">
-        <h1 className="text-5xl">Course We Offer</h1>
+        <h1 className="text-5xl">Courses We Offer</h1>
         <span className="font-sm text-yellow">FIITJEE BOKARO </span>
       </div>
       <div className="flex flex-col items-center justify-center ">
-        <Link
+        {/* <Link
+          href="/course/Little_Genie"
+          className="flex flex-col items-start p-[3rem]  w-[78%] sm:w-[100%]  sm:ml-0 "
+        > */}
+        <div className="flex flex-col items-start p-[3rem]  w-[78%] sm:w-[100%]  sm:ml-0 ">
+          <h1 className="text-5xl text-[#004790] sm:text-3xl font-bold">
+            CLASS 6
+          </h1>
+          <div className="flex flex-wrap justify-evenly ">
+            <div className=" mt-[2rem]     bg-primary-light  shadow-prim shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+              <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
+                <div className="">
+                  <Image
+                    src={littleg}
+                    className="h-[20&] w-[40rem] rounded-xl object-cover "
+                  />{" "}
+                </div>
+                <div className="">
+                  <h1 className="text-lg font-bold">Little Genie</h1>
+                  <p className="   ">
+                    {" "}
+                    This is an Ideal Program for Students who wish to climb the
+                    ladder of academic success from Class VI itself.
+                  </p>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">175 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/Little_Genie"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red ">
+                        Know More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* </Link> */}
+        {/* <Link
           href="/course/Udaya-7"
           className="flex flex-col items-start p-[3rem]  w-[78%] sm:w-[100%]  sm:ml-0 "
-        >
-          {/* <div className="flex flex-col items-start p-[3rem]  w-[78%] sm:w-[100%]  sm:ml-0 "> */}
+        > */}
+        <div className="flex flex-col items-start p-[3rem]  w-[78%] sm:w-[100%]  sm:ml-0 ">
           <h1 className="text-5xl text-[#004790] sm:text-3xl font-bold">
             CLASS 7
           </h1>
           <div className="flex flex-wrap justify-evenly ">
-            <div className=" mt-[2rem] cursor-pointer  hover:shadow-pink bg-primary-light  shadow-prim shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+            <div className=" mt-[2rem]  bg-primary-light  shadow-prim shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2 border-red">
+                <div className="">
                   <Image
-                    src={little}
-                    className="h-[20&] w-[40rem]  object-cover "
+                    src={tow}
+                    className="h-[20&] w-[40rem] rounded-xl object-cover "
                   />{" "}
                 </div>
                 <div className="">
@@ -45,30 +102,40 @@ const page = () => {
                     This is an Ideal Program for Students who wish to climb the
                     ladder of academic success from Class VII itself.
                   </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">175 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/Udaya-7"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          {/* </div>   */}
-        </Link>
+        </div>
+        {/* </Link> */}
         <div className="flex flex-col items-start p-[3rem]  w-[78%] sm:w-[100%]  sm:ml-0 ">
           <h1 className="text-5xl text-[#004790] sm:text-3xl font-bold">
             CLASS 8
           </h1>
           <div className="flex flex-wrap gap-20 ">
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+            <div className=" mt-[2rem]   bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
+                <div className="">
                   <Image
-                    src={abc}
-                    className="h-[20&] w-[40rem]  object-cover "
+                    src={three}
+                    className="h-[20&] w-[40rem] rounded-xl object-cover "
                   />{" "}
                 </div>
                 <div className="">
@@ -81,12 +148,22 @@ const page = () => {
                     This is an Ideal Program for Students who wish to climb the
                     ladder of academic success from Class VIII itself.
                   </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">220 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/Udaya-8"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -98,16 +175,52 @@ const page = () => {
             CLASS 9
           </h1>
           <div className="flex flex-wrap gap-40 sm:gap-10 ">
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+            <div className=" mt-[2rem]   bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
+                <div className="">
                   <Image
-                    src={abc}
-                    className="h-[20&] w-[40rem]  object-cover "
+                    src={four}
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
                   />{" "}
                 </div>
                 <div className="">
                   {/* <h1 className="text-3xl font-bold">CLASSROOM</h1> */}
+                  <h1 className="text-lg font-bold">Ascent</h1>
+                  <p className="   ">
+                    {" "}
+                    This program also prepares students to Excel in School
+                    Boards and all scholastic & competitive exams.
+                  </p>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">500 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/Ascent-9"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className=" mt-[2rem]   bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+              <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
+                <div className="">
+                  <Image
+                    src={five}
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
+                  />{" "}
+                </div>
+                <div className="">
+                  {/* <h1 className="text-3xl font-bold">ASCENT</h1> */}
                   <h1 className="text-lg font-bold">
                     Four Year Classroom Program
                   </h1>
@@ -117,40 +230,22 @@ const page = () => {
                     other Engineering Entrance and respective Competitive &
                     Scholastic Exams
                   </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
-              <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
-                  <Image
-                    src={abc}
-                    className="h-[20&] w-[40rem]  object-cover "
-                  />{" "}
-                </div>
-                <div className="">
-                  {/* <h1 className="text-3xl font-bold">ASCENT</h1> */}
-                  <h1 className="text-lg font-bold">
-                    Two Year Classroom Program
-                  </h1>
-                  <p className="   ">
-                    {" "}
-                    This is an Ideal Program for Students who wish to climb the
-                    ladder of academic success from Class VIII itself.
-                  </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">1287 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/Udaya-8"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -166,7 +261,7 @@ const page = () => {
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
                 <div className="rounded-md border-2">
                   <Image
-                    src={abc}
+                    src={six}
                     className="h-[20&] w-[40rem]  object-cover "
                   />{" "}
                 </div>
@@ -195,7 +290,7 @@ const page = () => {
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
                 <div className="rounded-md border-2">
                   <Image
-                    src={abc}
+                    src={seven}
                     className="h-[20&] w-[40rem]  object-cover "
                   />{" "}
                 </div>
@@ -230,7 +325,7 @@ const page = () => {
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
                 <div className="rounded-md border-2">
                   <Image
-                    src={abc}
+                    src={eight}
                     className="h-[20&] w-[40rem]  object-cover "
                   />{" "}
                 </div>
@@ -259,7 +354,7 @@ const page = () => {
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
                 <div className="rounded-md border-2">
                   <Image
-                    src={abc}
+                    src={nine}
                     className="h-[20&] w-[40rem]  object-cover "
                   />{" "}
                 </div>
@@ -294,7 +389,7 @@ const page = () => {
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
                 <div className="rounded-md border-2">
                   <Image
-                    src={abc}
+                    src={ten}
                     className="h-[20&] w-[40rem]  object-cover "
                   />{" "}
                 </div>
@@ -323,7 +418,7 @@ const page = () => {
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
                 <div className="rounded-md border-2">
                   <Image
-                    src={abc}
+                    src={eleven}
                     className="h-[20&] w-[40rem]  object-cover "
                   />{" "}
                 </div>
@@ -358,7 +453,7 @@ const page = () => {
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
                 <div className="rounded-md border-2">
                   <Image
-                    src={abc}
+                    src={twelve}
                     className="h-[20&] w-[40rem]  object-cover "
                   />{" "}
                 </div>
