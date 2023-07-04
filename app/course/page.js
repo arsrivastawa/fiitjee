@@ -239,7 +239,7 @@ const page = () => {
                       <span className="font-bold">1287 HOURS</span>
                     </div>
                     <Link
-                      href="/course/Udaya-8"
+                      href="/course/Four_Year"
                       className="flex justify-center"
                     >
                       <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
@@ -257,59 +257,78 @@ const page = () => {
             CLASS 10
           </h1>
           <div className="flex flex-wrap gap-40 sm:gap-10 ">
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+            <div className=" mt-[2rem]   bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
+                <div className="">
                   <Image
                     src={six}
-                    className="h-[20&] w-[40rem]  object-cover "
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
                   />{" "}
                 </div>
                 <div className="">
                   {/* <h1 className="text-3xl font-bold">CLASSROOM</h1> */}
                   <h1 className="text-lg font-bold">
-                    Four Year Classroom Program
+                    Three Year Classroom Program
                   </h1>
                   <p className="   ">
                     {" "}
-                    This program also prepares students comprehensively for
-                    other Engineering Entrance and respective Competitive &
-                    Scholastic Exams.
+                    This is an ideal program for students for JEE Main &
+                    Advanced 2026 for students presently in Class IX (going to X
+                    in the year 2023).
                   </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">1028 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/Three_Year"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+            <div className=" mt-[2rem]   bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
+                <div className="">
                   <Image
                     src={seven}
-                    className="h-[20&] w-[40rem]  object-cover "
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
                   />{" "}
                 </div>
                 <div className="">
                   {/* <h1 className="text-3xl font-bold">ASCENT</h1> */}
-                  <h1 className="text-lg font-bold">
-                    One Year Classroom Program
-                  </h1>
+                  <h1 className="text-lg font-bold">Ascent</h1>
                   <p className="   ">
                     {" "}
-                    This is an Ideal Program for Students who wish to climb the
-                    ladder of academic success from Class VIII itself.
+                    One-year classroom program for Class IX students (going to X
+                    in 2023) to excel in school boards and national-level exams,
+                    including NTSE, NSEJS/IJSO, and RMO.
                   </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">300 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/Ascent-10"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -321,59 +340,39 @@ const page = () => {
             CLASS 11
           </h1>
           <div className="flex flex-wrap gap-40 sm:gap-10 ">
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+            <div className=" mt-[2rem]  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
+                <div className="">
                   <Image
                     src={eight}
-                    className="h-[20&] w-[40rem]  object-cover "
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
                   />{" "}
                 </div>
                 <div className="">
                   {/* <h1 className="text-3xl font-bold">CLASSROOM</h1> */}
                   <h1 className="text-lg font-bold">
-                    Four Year Classroom Program
+                    Two Year Classroom Program
                   </h1>
                   <p className="   ">
                     {" "}
-                    This program also prepares students comprehensively for
-                    other Engineering Entrance and respective Competitive &
-                    Scholastic Exams.
+                    The Program that has Produced Maximum TOPPERS
                   </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
-              <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
-                  <Image
-                    src={nine}
-                    className="h-[20&] w-[40rem]  object-cover "
-                  />{" "}
-                </div>
-                <div className="">
-                  {/* <h1 className="text-3xl font-bold">ASCENT</h1> */}
-                  <h1 className="text-lg font-bold">
-                    One Year Classroom Program
-                  </h1>
-                  <p className="   ">
-                    {" "}
-                    This is an Ideal Program for Students who wish to climb the
-                    ladder of academic success from Class VIII itself.
-                  </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">728 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/Two_Year"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -385,41 +384,12 @@ const page = () => {
             CLASS 12
           </h1>
           <div className="flex flex-wrap gap-40 sm:gap-10 ">
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+            <div className=" mt-[2rem]  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
-                  <Image
-                    src={ten}
-                    className="h-[20&] w-[40rem]  object-cover "
-                  />{" "}
-                </div>
                 <div className="">
-                  {/* <h1 className="text-3xl font-bold">CLASSROOM</h1> */}
-                  <h1 className="text-lg font-bold">
-                    Four Year Classroom Program
-                  </h1>
-                  <p className="   ">
-                    {" "}
-                    This program also prepares students comprehensively for
-                    other Engineering Entrance and respective Competitive &
-                    Scholastic Exams.
-                  </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
-              <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
                   <Image
-                    src={eleven}
-                    className="h-[20&] w-[40rem]  object-cover "
+                    src={nine}
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
                   />{" "}
                 </div>
                 <div className="">
@@ -429,15 +399,62 @@ const page = () => {
                   </h1>
                   <p className="   ">
                     {" "}
-                    This is an Ideal Program for Students who wish to climb the
-                    ladder of academic success from Class VIII itself.
+                    Integrated study program combining XII Boards, JEE Main &
+                    Advanced, International Olympiads, National level scholastic
+                    exams, and other engineering entrance examinations.
                   </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">530 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/One_Year"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className=" mt-[2rem]   bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+              <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
+                <div className="">
+                  <Image
+                    src={ten}
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
+                  />{" "}
+                </div>
+                <div className="">
+                  {/* <h1 className="text-3xl font-bold">CLASSROOM</h1> */}
+                  <h1 className="text-lg font-bold">Special 1 Year Weekend</h1>
+                  <p className="   ">
+                    {" "}
+                    Synchronized study program for XII Boards, JEE (Advanced),
+                    JEE (Main), and other competitive entrance exams.
+                  </p>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">474 HOURS</span>
+                    </div>{" "}
+                    <Link
+                      href="/course/One_Year_Special"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -449,31 +466,76 @@ const page = () => {
             CLASS 12(Passout)
           </h1>
           <div className="flex flex-wrap gap-40 sm:gap-10 ">
-            <div className=" mt-[2rem] cursor-pointer hover:shadow-pink  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+            <div className=" mt-[2rem]  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
               <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
-                <div className="rounded-md border-2">
+                <div className="">
+                  <Image
+                    src={eleven}
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
+                  />{" "}
+                </div>
+                <div className="">
+                  {/* <h1 className="text-3xl font-bold">ASCENT</h1> */}
+                  <h1 className="text-lg font-bold">One Year Extended</h1>
+                  <p className="   ">
+                    {" "}
+                    One-year extended classroom program for JEE (Advanced) 2024,
+                    designed for XII appeared/pass students.
+                  </p>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">547 HOURS</span>
+                    </div>
+                    <Link
+                      href="/course/One_Year_Extended"
+                      className="flex justify-center"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className=" mt-[2rem]  bg-primary-light shadow-2xl w-[400px] sm:w-[100%]  rounded-xl">
+              <div className="flex justify-center flex-col items-center   sm:flex-col   gap-5 p-4 sm:ml-0 rounded-sm">
+                <div className="">
                   <Image
                     src={twelve}
-                    className="h-[20&] w-[40rem]  object-cover "
+                    className="h-[20&] w-[40rem] rounded-lg object-cover "
                   />{" "}
                 </div>
                 <div className="">
                   {/* <h1 className="text-3xl font-bold">CLASSROOM</h1> */}
                   <h1 className="text-lg font-bold">
-                    Four Year Classroom Program
+                    Special One Year Classroom Program
                   </h1>
                   <p className="   ">
                     {" "}
-                    This program also prepares students comprehensively for
-                    other Engineering Entrance and respective Competitive &
-                    Scholastic Exams.
+                    One-year extended classroom program for JEE (Advanced) 2024,
+                    designed for XII appeared/pass students.
                   </p>
-                  <div className="flex items-center gap-5 mt-2">
-                    <Image
-                      src={hourglass}
-                      className="rounded-full h-[2rem] w-[2rem]"
-                    />
-                    <span className="font-bold">220 HOURS</span>
+                  <div className="flex justify-between">
+                    <div className="flex items-center gap-5 mt-2">
+                      <Image
+                        src={hourglass}
+                        className="rounded-full h-[2rem] w-[2rem]"
+                      />
+                      <span className="font-bold">500 HOURS</span>
+                    </div>
+                    <Link
+                      className="flex justify-center"
+                      href="/course/Special"
+                    >
+                      <button className="p-3 rounded-lg font-bold text-primary-light bg-red">
+                        Know More
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>

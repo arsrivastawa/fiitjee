@@ -1,6 +1,10 @@
 import React from "react";
 import { FaChalkboardTeacher, FaGraduationCap } from "react-icons/fa";
 import { GiBookshelf } from "react-icons/gi";
+import teaching from "@/assets/teaching.png";
+import coaching from "@/assets/coaching.png";
+import gmp from "@/assets/gmp.png";
+import Image from "next/image";
 
 const WhyUS = () => {
   return (
@@ -18,12 +22,12 @@ const WhyUS = () => {
           {/* <div className="bg-red break-words w-[25rem] sm:w-[40rem] p-4 rounded-md flex  flex-col items-center"> */}
           <div className="bg-[#fff] flex min-h-[330px] max-w-[380px] flex-col items-center gap-y-4 px-4 py-12 rounded-md border-b-[6px]  shadow-md z-20 ">
             <div className="bg-pink rounded-full flex justify-center w-[5rem] h-[5rem] items-center">
-              <FaGraduationCap className="w-[3rem] h-[3rem]" />
+              <Image src={coaching} className="w-[3rem] h-[3rem]" />
             </div>
             <h1 className="text-center font-bold text-lg p-4">
               Pattern Proof Teaching
             </h1>
-            <p className="p-4 sm:p-0 text-[#94989F]">
+            <p className="p-4 sm:p-0 ">
               FIITJEE has always been preparing Students in a fundamental
               way.FIITJEE has been teaching in a comprehensive manner so that
               Students do well in IIT-JEE (irrespective of the pattern),
@@ -31,13 +35,17 @@ const WhyUS = () => {
             </p>
           </div>
           <div className="bg-[#fff] flex min-h-[330px] max-w-[380px] flex-col items-center gap-y-4 px-4 py-12 rounded-md border-b-[6px]  shadow-md z-20">
-            <div className="bg-pink rounded-full flex justify-center w-[5rem] h-[5rem] items-center">
-              <FaChalkboardTeacher className="w-[3rem] h-[3rem]" />
+            <div className="bg-blue rounded-full flex justify-center w-[5rem] h-[5rem] items-center">
+              <Image
+                src={teaching}
+                alt="teaching"
+                className="w-[3rem] h-[3rem]"
+              />
             </div>
             <h1 className="text-center font-bold text-lg p-4">
               Presonalized Coaching
             </h1>
-            <p className="p-4 sm:p-0 text-[#94989F]">
+            <p className="p-4 sm:p-0 ">
               Individual attention is given to every Student irrespective of
               one’s standing in the merit at any point of time. We never
               increase our batch size beyond a limit, this facilitates proper
@@ -46,13 +54,16 @@ const WhyUS = () => {
             </p>
           </div>
           <div className="bg-[#fff] flex min-h-[330px] max-w-[380px] flex-col items-center gap-y-4 px-4 py-12 rounded-md border-b-[6px]  shadow-md z-20">
-            <div className="bg-pink rounded-full flex justify-center w-[5rem] h-[5rem] items-center">
-              <GiBookshelf className="w-[3rem] h-[3rem] items-center ml-2 text-red" />
+            <div className="bg-yellow rounded-full flex justify-center w-[5rem] h-[5rem] items-center">
+              <Image
+                src={gmp}
+                className="w-[3rem] h-[3rem] items-center  text-red"
+              />
             </div>
             <h1 className="text-center font-bold text-lg p-4">
               Study Resources
             </h1>
-            <p className="p-4 sm:p-0 text-[#94989F]">
+            <p className="p-4 sm:p-0">
               FIITJEE's study resources have been prepared based on years of
               experience & expertise and it includes best quality practice
               assignment with different types of questions to give students a
