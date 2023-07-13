@@ -18,11 +18,11 @@ export const navItem = [
 
 export const slides = [
   {
-    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1687384431/1685983637-neet_pre_sign_up-01_1_-min_eaxwxk.jpg",
+    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686226417/1_y2c19x.png",
     title: "neet",
   },
   {
-    url: "https://www.pw.live/version2/images/web_1679917202fraud-web-banner.png",
+    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686227191/1_yrbutr.png",
     title: "fraud",
   },
   {

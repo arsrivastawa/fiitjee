@@ -12,8 +12,8 @@ const AboutUs = () => {
         </h1>
         <div className="flex flex-wrap gap-5 p-4">
           <Image src={aboutUs} alt="about" className="w-[35rem]" />
-          <div className=" w-[48%] sm:w-[100%]">
-            <p className="   p-4">
+          <div className=" w-[48%] sm:w-[100%] ">
+            <p className="   p-4 ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae, cum ut quidem eius non dolor a perferendis, eligendi
               iure voluptates nobis! Alias repudiandae, nisi nobis voluptate est

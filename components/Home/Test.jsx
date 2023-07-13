@@ -3,24 +3,28 @@ import React from "react";
 
 const Test = () => {
   return (
-    <div className="bg-[#F7F8FC]">
+    <div className="bg-[#FFA776] bg-opacity-10 pb-10">
       <div className="p-[2rem] ml-[10rem]  sm:p-0 sm:ml-2">
         <div className="herder p-4 text-5xl  sm:text-3xl font-bold sm:p-3 ">
           Admission Test <span className="text-red">Dates</span>
         </div>
       </div>
       <div className="flex flex-wrap  items-center justify-center gap-10">
-        <div className="bg-red space-y-4 rounded-xl px-5 py-7   shadow-xl md:w-[456px] md:py-10  w-[22rem] sm:w-[22rem]">
-          <h1 className="items-center font-bold text-xl">
+        <div className="bg-[#FF6DA1]  bg-opacity-25 space-y-4 rounded-xl px-5 py-7   shadow-xl md:w-[456px] md:py-10  w-[22rem] sm:w-[22rem]">
+          <h1 className="items-center font-bold text-xl underline">
             {" "}
             For Class XI & XII Pass Students
           </h1>
-          Registration for 16th July Test date is also open for students of
-          Class VII & Class IX at Chennai Centres
+          <span className="text-primary-light mt-10">
+            Registration for 16th July Test date is also open for students of
+            Class VII & Class IX at Chennai Centres
+          </span>
           <div className="flex flex-col justify-center items-center">
-            <span>16th July 2023</span>
+            <span className="font-bold text-xl">16th July 2023</span>
             <Link href="https://admissiontest.fiitjee.com/RegistrationV2.aspx">
-              <button>Register Now</button>
+              <button className="bg-red p-4 rounded-lg text-primary-light">
+                Register Now
+              </button>
             </Link>
           </div>
         </div>

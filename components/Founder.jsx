@@ -5,7 +5,7 @@ import chariman from "@/assets/chairman.png";
 
 const Founder = () => {
   return (
-    <div className="bg-[#F7F8FC] founder ">
+    <div className="bg-[#FAC804] founder ">
       <div className="p-4 w-[80%] sm:w-[100%]  ml-[10rem] sm:ml-0">
         <h1 className="font-bold text-5xl sm:text-3xl  p-4 ">
           Meet Our <span className="text-red">Founder </span>
@@ -19,7 +19,7 @@ const Founder = () => {
             width={50}
             className="w-[30rem] h-[30rem] p-4 sm:w-[100%] sm:h-[20rem]"
           />
-          <div className="flex w-[50%] sm:w-[100%] flex-wrap gap-5 p-4">
+          <div className="flex w-[50%] bg-primary-light rounded-lg mt-5 bg-opacity-70 sm:w-[100%] flex-wrap gap-5 p-4">
             {/* <Image src={aboutUs} alt="about" className="w-[35rem]" /> */}
             <div className="  sm:w-[100%]">
               <p className="  sm:p-0 p-4">
