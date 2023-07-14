@@ -104,7 +104,10 @@ const Navbar = () => {
           </a>
         </Link>
       </div>
-      <div id="navList" className={`${styles.navbarList} flex justify-center`}>
+      <div
+        id="navList"
+        className={`${styles.navbarList} flex justify-center sm:hidden`}
+      >
         <Link href="/about" legacyBehavior>
           <a className={styles.navLink}>About FIITJEE</a>
         </Link>
@@ -121,7 +124,7 @@ const Navbar = () => {
             light
           >
             {" "}
-            <span className="text-primary-light font-bold text-lg">
+            <span className="text-primary-light font-bold text-lg sm:hidden">
               Admission
             </span>{" "}
           </Dropdown.Button>
@@ -169,7 +172,7 @@ const Navbar = () => {
             aria-label="Actions"
           >
             <Dropdown.Item>
-              <Link href="/course" className="font-bold ">
+              <Link href="/notice" className="font-bold ">
                 Notice
               </Link>
             </Dropdown.Item>
@@ -180,31 +183,14 @@ const Navbar = () => {
                 href="https://www.fiitjee.com/admission"
                 className="font-bold "
               >
-                Results
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              {" "}
-              <Link
-                href="https://www.fiitjee.com/admission"
-                className="font-bold "
-              >
                 Previous Year Solution
               </Link>
             </Dropdown.Item>
+
             <Dropdown.Item>
               {" "}
               <Link
-                href="https://www.fiitjee.com/admission"
-                className="font-bold "
-              >
-                Time Table
-              </Link>
-            </Dropdown.Item>
-            <Dropdown.Item>
-              {" "}
-              <Link
-                href="https://www.fiitjee.com/admission"
+                href="https://www.iitjeetoppers.com/"
                 className="font-bold "
               >
                 Past Results
@@ -221,10 +207,7 @@ const Navbar = () => {
             </Dropdown.Item>
             <Dropdown.Item>
               {" "}
-              <Link
-                href="https://www.fiitjee.com/admission"
-                className="font-bold "
-              >
+              <Link href="/gallery" className="font-bold ">
                 Gallery
               </Link>
             </Dropdown.Item>
@@ -251,7 +234,10 @@ const Navbar = () => {
             aria-label="Actions"
           >
             <Dropdown.Item key="new" description="Register for the course">
-              <Link href="/course" className="font-bold ">
+              <Link
+                href="https://fiitjee.com/downloads/e-brochures"
+                className="font-bold "
+              >
                 E-Brochures
               </Link>
             </Dropdown.Item>
@@ -260,7 +246,10 @@ const Navbar = () => {
               style={{ color: "#fff", TextColor: "black" }}
               description="Register for the course"
             >
-              <Link href="/course" className="font-bold ">
+              <Link
+                href="https://www.fiitjeesouthdelhi.co.in/web-docs/Registration-Form.pdf"
+                className="font-bold "
+              >
                 Registeration Form
               </Link>
             </Dropdown.Item>
@@ -268,7 +257,7 @@ const Navbar = () => {
             <Dropdown.Item key="ef">
               {" "}
               <Link
-                href="https://www.fiitjee.com/admission"
+                href="https://fiitjee.com/downloads/enrollment-forms"
                 className="font-bold "
               >
                 Enrollment Form
@@ -277,7 +266,7 @@ const Navbar = () => {
             <Dropdown.Item key="tf">
               {" "}
               <Link
-                href="https://www.fiitjee.com/admission"
+                href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_27.pdf"
                 className="font-bold "
               >
                 Transfer Form
@@ -286,7 +275,7 @@ const Navbar = () => {
             <Dropdown.Item key="aff" className="mt-5">
               {" "}
               <Link
-                href="https://www.fiitjee.com/admission"
+                href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_21.pdf"
                 className="font-bold mt-5 "
               >
                 Tuition Fee Waiver Affidavit
@@ -295,7 +284,7 @@ const Navbar = () => {
             <Dropdown.Item key="sc" className="mt-5">
               {" "}
               <Link
-                href="https://www.fiitjee.com/admission"
+                href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_28.pdf"
                 className="font-bold mt-5 "
               >
                 Format for Claim of Scholarship
@@ -304,7 +293,7 @@ const Navbar = () => {
             <Dropdown.Item key="fj" className="mt-5 mb-5">
               {" "}
               <Link
-                href="https://www.fiitjee.com/admission"
+                href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_19.pdf"
                 className="font-bold "
               >
                 Application Form for FIITJEE Awards

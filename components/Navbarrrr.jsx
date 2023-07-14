@@ -4,6 +4,7 @@ import Image from "next/image";
 import logo from "@/assets/logo.png";
 import Link from "next/link";
 import telephone from "@/assets/telephone.png";
+import gmail from "@/assets/gmail.png";
 
 const Navbarrrr = () => {
   return (
@@ -59,7 +60,7 @@ const Navbarrrr = () => {
           <div className="flex flex-col gap-2">
             <div className="flex gap-5">
               <Image
-                src={telephone}
+                src={gmail}
                 alt="phone"
                 className="sm:hidden h-[1.7rem] w-[1.7rem]"
               />
@@ -67,7 +68,7 @@ const Navbarrrr = () => {
             </div>
             <div className="flex gap-5">
               <Image
-                src={telephone}
+                src={gmail}
                 alt="phone"
                 className="sm:hidden h-[1.7rem] w-[1.7rem]"
               />
@@ -75,7 +76,7 @@ const Navbarrrr = () => {
             </div>
             <div className="flex gap-5">
               <Image
-                src={telephone}
+                src={gmail}
                 alt="phone"
                 className="sm:hidden h-[1.7rem] w-[1.7rem]"
               />
@@ -83,7 +84,7 @@ const Navbarrrr = () => {
             </div>
           </div>
         </div>
-        <div className="p-4">
+        <div className="p-4 invisible">
           <button>he</button>
         </div>
       </div>

@@ -50,20 +50,33 @@ export default function TopicsList() {
   }
 
   return (
-    <>
-      {topics.reverse().map((t) => (
-        <div
-          key={t._id}
-          className=" p-4 border-2 border-gray my-3 flex justify-between gap-5 items-start"
-        >
-          <div className="">
-            <h2 className="font-bold text-3xl">{t.title}</h2>
-            <Link href={`${t.description}`}>
-              <div>Download Here</div>
-            </Link>
-          </div>
+    <div className="">
+      <div className="bg-[#F8FAFC]">
+        <div className="bggg">
+          <h1 className="text-5xl">Notices</h1>
+          <span className="font-sm text-yellow">FIITJEE BOKARO </span>
         </div>
-      ))}
-    </>
+      </div>
+      <div className="flex flex-col justify-center items-center">
+        {topics.reverse().map((t) => (
+          <div
+            key={t._id}
+            className=" p-4 border-2   border-gray rounded-lg my-3 flex justify-between gap-5  w-[80%] items-center"
+          >
+            <div className="">
+              <h2 className="font-bold text-3xl text-primary">{t.title}</h2>
+            </div>
+
+            <div className="flex gap-3 bg-red p-3 rounded-lg">
+              <Link href={`${t.description}`}>
+                <div className="font-bold  text-primary-light">
+                  Download Here
+                </div>
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
