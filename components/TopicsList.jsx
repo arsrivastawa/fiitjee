@@ -62,16 +62,6 @@ export default function TopicsList() {
               <div>Download Here</div>
             </Link>
           </div>
-
-          <div className="flex gap-3">
-            <RemoveBtn id={t._id} />
-            <Link href={`/editTopic/${t._id}`}>
-              <HiPencil
-                size={20}
-                className="text-gray-500 hover:text-gray-700"
-              />
-            </Link>
-          </div>
         </div>
       ))}
     </>
