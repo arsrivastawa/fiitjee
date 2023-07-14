@@ -108,7 +108,7 @@ function Sidebar({ isMounted, unmount }) {
             light
           >
             {" "}
-            <span className="text-primary font-bold text-lg sm:hidden">
+            <span className="text-primary font-bold text-lg ">
               Admission
             </span>{" "}
           </Dropdown.Button>
