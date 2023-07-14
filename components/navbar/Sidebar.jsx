@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./Hamburger.module.css";
 import Logo from "../../assets/logo.png";
+import { Dropdown } from "@nextui-org/react";
 // import Button from "../button/Button";
 // import { Dropdown } from "@nextui-org/react";
 
@@ -89,27 +90,199 @@ function Sidebar({ isMounted, unmount }) {
       </div>
 
       <div id="navList" className={styles.navItems}>
-        <Link href="https://fiitjeedhanbad.com/about.html" legacyBehavior>
+        <Link href="/about" legacyBehavior>
+          <a className={styles.navLink} target="_blank">
+            About FIITJEE
+          </a>
+        </Link>
+        <Link href="/why" legacyBehavior>
           <a className={styles.navLink} target="_blank">
             Why FIITJEE
           </a>
         </Link>
-        <Link href="https://fiitjeedhanbad.com/contact.html" legacyBehavior>
-          <a className={styles.navLink} target="_blank">
-            Admission
-          </a>
-        </Link>
-        <Link href="https://fiitjeedhanbad.com/contact.html" legacyBehavior>
-          <a className={styles.navLink} target="_blank">
-            Student Corner
-          </a>
-        </Link>
-        <Link href="https://fiitjeedhanbad.com/contact.html" legacyBehavior>
-          <a className={styles.navLink} target="_blank">
-            Gallery
-          </a>
-        </Link>
-        <Link href="https://fiitjeedhanbad.com/contact.html" legacyBehavior>
+        <Dropdown>
+          <Dropdown.Button
+            isDisabled
+            style={{ color: "#fff", TextColor: "black" }}
+            css={"background: red"}
+            light
+          >
+            {" "}
+            <span className="text-primary-light font-bold text-lg sm:hidden">
+              Admission
+            </span>{" "}
+          </Dropdown.Button>
+          <Dropdown.Menu
+            aria-label="Actions"
+            variant="default"
+            background="red"
+            textColor="white"
+            color={"error"}
+          >
+            <Dropdown.Item key="new" description="Register for the course">
+              <Link href="/course" className="font-bold ">
+                Course <span className="invisible">Lorem, ipsum </span>
+              </Link>
+            </Dropdown.Item>
+
+            <Dropdown.Item key="copy">
+              {" "}
+              <Link
+                href="https://www.fiitjee.com/admission"
+                className="font-bold "
+              >
+                Admission Process
+              </Link>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+        <Dropdown>
+          <Dropdown.Button
+            isDisabled
+            style={{ color: "#fff", TextColor: "black" }}
+            css={"background: red"}
+            light
+          >
+            {" "}
+            <span className="text-primary-light font-bold text-lg">
+              Student Corner
+            </span>{" "}
+          </Dropdown.Button>
+          <Dropdown.Menu
+            background="red"
+            textColor="white"
+            color={"error"}
+            variant="default"
+            aria-label="Actions"
+          >
+            <Dropdown.Item>
+              <Link href="/notice" className="font-bold ">
+                Notice
+              </Link>
+            </Dropdown.Item>
+
+            <Dropdown.Item>
+              {" "}
+              <Link
+                href="https://www.fiitjee.com/admission"
+                className="font-bold "
+              >
+                Previous Year Solution
+              </Link>
+            </Dropdown.Item>
+
+            <Dropdown.Item>
+              {" "}
+              <Link
+                href="https://www.iitjeetoppers.com/"
+                className="font-bold "
+              >
+                Past Results
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              {" "}
+              <Link href="/faq" className="font-bold ">
+                FAQ's
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+              {" "}
+              <Link href="/gallery" className="font-bold ">
+                Gallery
+              </Link>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+
+        <Dropdown>
+          <Dropdown.Button
+            isDisabled
+            style={{ color: "#fff", TextColor: "black" }}
+            css={"background: red"}
+            light
+          >
+            {" "}
+            <span className="text-primary-light font-bold text-lg">
+              Downloads
+            </span>{" "}
+          </Dropdown.Button>
+          <Dropdown.Menu
+            background="red"
+            textColor="white"
+            color={"error"}
+            variant="default"
+            aria-label="Actions"
+          >
+            <Dropdown.Item key="new" description="Register for the course">
+              <Link
+                href="https://fiitjee.com/downloads/e-brochures"
+                className="font-bold "
+              >
+                E-Brochures
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item
+              key="reg"
+              style={{ color: "#fff", TextColor: "black" }}
+              description="Register for the course"
+            >
+              <Link
+                href="https://www.fiitjeesouthdelhi.co.in/web-docs/Registration-Form.pdf"
+                className="font-bold "
+              >
+                Registeration Form
+              </Link>
+            </Dropdown.Item>
+
+            <Dropdown.Item key="ef">
+              {" "}
+              <Link
+                href="https://fiitjee.com/downloads/enrollment-forms"
+                className="font-bold "
+              >
+                Enrollment Form
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item key="tf">
+              {" "}
+              <Link
+                href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_27.pdf"
+                className="font-bold "
+              >
+                Transfer Form
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item key="aff" className="mt-5">
+              {" "}
+              <Link
+                href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_21.pdf"
+                className="font-bold mt-5 "
+              >
+                Tuition Fee Waiver Affidavit
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item key="sc" className="mt-5">
+              {" "}
+              <Link
+                href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_28.pdf"
+                className="font-bold mt-5 "
+              >
+                Format for Claim of Scholarship
+              </Link>
+            </Dropdown.Item>
+            <Dropdown.Item key="fj" className="mt-5 mb-5">
+              {" "}
+              <Link
+                href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_19.pdf"
+                className="font-bold "
+              >
+                Application Form for FIITJEE Awards
+              </Link>
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+        <Link href="/contact-us" legacyBehavior>
           <a className={styles.navLink} target="_blank">
             Contact Us
           </a>
