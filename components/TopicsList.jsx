@@ -6,7 +6,7 @@ import RemoveBtn from "./RemoveBtn";
 
 const getTopics = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/topics", {
+    const res = await fetch("https://fiitjee-bokaro.vercel.app/api/topics", {
       cache: "no-store",
     });
 
@@ -51,14 +51,16 @@ export default function TopicsList() {
 
   return (
     <>
-      {topics.map((t) => (
+      {topics.reverse().map((t) => (
         <div
           key={t._id}
           className=" p-4 border-2 border-gray my-3 flex justify-between gap-5 items-start"
         >
           <div className="">
             <h2 className="font-bold text-3xl">{t.title}</h2>
-            <div>{t.description}</div>
+            <Link href={`${t.description}`}>
+              <div>Download Here</div>
+            </Link>
           </div>
 
           <div className="flex gap-3">
