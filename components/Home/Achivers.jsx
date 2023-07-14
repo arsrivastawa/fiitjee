@@ -6,6 +6,17 @@ import "swiper/css/pagination";
 import SwiperCore, { Autoplay, Pagination } from "swiper";
 import Image from "next/image";
 import iitb from "@/assets/ib.png";
+import ib from "@/assets/iitb.jpg";
+import iitd from "@/assets/iitd.jpg";
+import iitm from "@/assets/iitm.jpg";
+import iitkgp from "@/assets/iitkgp.jpg";
+import iitr from "@/assets/iitr.jpg";
+import iitk from "@/assets/iitk.jpg";
+import iitg from "@/assets/iitg.jpg";
+import iitdh from "@/assets/iitdh.jpg";
+import iith from "@/assets/iith.jpg";
+import iitbhu from "@/assets/iitbhu.jpg";
+import iitbh from "@/assets/iitbh.jpg";
 
 SwiperCore.use([Autoplay, Pagination]);
 
@@ -21,7 +32,7 @@ const Achivers = () => {
       <div className="overflow-hidden p-4 cursor-grabbing">
         <Swiper
           ref={swiperRef}
-          slidesPerView={5}
+          slidesPerView={3}
           spaceBetween={4}
           pagination={{
             clickable: false,
@@ -39,71 +50,38 @@ const Achivers = () => {
           lazyPreloadPrevNext={true}
           className="mySwiper mt-5  w-[70rem] sm:w-[60rem] overflow-hidden"
         >
-          <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full bg-yellow h-[10rem] mt-2 w-[10rem]"
-            />
+          <SwiperSlide className="p-4   ">
+            <Image src={ib} className=" bg-yellow h-[10rem] " />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitd} className=" h-[10rem] " />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitm} className=" h-[10rem] " />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitkgp} className=" h-[10rem]" />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitr} className=" h-[10rem] " />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitk} className="h-[10rem] " />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitg} className="h-[10rem]" />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitdh} className=" h-[10rem] " />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iith} className=" h-[10rem] " />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitbhu} className="h-[10rem] " />
           </SwiperSlide>
           <SwiperSlide className="p-4   overflow-hidden">
-            <Image
-              src={iitb}
-              className="rounded-full h-[10rem] mt-2 w-[10rem]"
-            />
+            <Image src={iitbh} className=" h-[10rem] " />
           </SwiperSlide>
         </Swiper>
       </div>

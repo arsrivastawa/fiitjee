@@ -198,10 +198,7 @@ const Navbar = () => {
             </Dropdown.Item>
             <Dropdown.Item>
               {" "}
-              <Link
-                href="https://www.fiitjee.com/admission"
-                className="font-bold "
-              >
+              <Link href="/faq" className="font-bold ">
                 FAQ's
               </Link>
             </Dropdown.Item>
