@@ -20,7 +20,7 @@ export default function AddTopic() {
     }
 
     try {
-      const res = await fetch("https://fiitjee-bokaro.vercel.app/api/topics", {
+      const res = await fetch("https://fiitjee-bokaro.vercel.app//api/topics", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
@@ -36,7 +36,7 @@ export default function AddTopic() {
         setTitle("");
         setDescription("");
 
-        router.push("/");
+        router.push("/notice");
       } else {
         throw new Error("Failed to create a topic");
       }
