@@ -103,12 +103,12 @@ function Sidebar({ isMounted, unmount }) {
         <Dropdown>
           <Dropdown.Button
             isDisabled
-            style={{ color: "#fff", TextColor: "black" }}
+            style={{ color: "#000", TextColor: "black" }}
             css={"background: red"}
             light
           >
             {" "}
-            <span className="text-primary-light font-bold text-lg sm:hidden">
+            <span className="text-primary font-bold text-lg sm:hidden">
               Admission
             </span>{" "}
           </Dropdown.Button>
@@ -139,12 +139,12 @@ function Sidebar({ isMounted, unmount }) {
         <Dropdown>
           <Dropdown.Button
             isDisabled
-            style={{ color: "#fff", TextColor: "black" }}
+            style={{ color: "#000", TextColor: "black" }}
             css={"background: red"}
             light
           >
             {" "}
-            <span className="text-primary-light font-bold text-lg">
+            <span className="text-primary font-bold text-lg">
               Student Corner
             </span>{" "}
           </Dropdown.Button>
@@ -198,12 +198,12 @@ function Sidebar({ isMounted, unmount }) {
         <Dropdown>
           <Dropdown.Button
             isDisabled
-            style={{ color: "#fff", TextColor: "black" }}
+            style={{ color: "#000", TextColor: "black" }}
             css={"background: red"}
             light
           >
             {" "}
-            <span className="text-primary-light font-bold text-lg">
+            <span className="text-primary font-bold text-lg">
               Downloads
             </span>{" "}
           </Dropdown.Button>
