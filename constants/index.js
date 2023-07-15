@@ -18,32 +18,16 @@ export const navItem = [
 
 export const slides = [
   {
-    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686226417/1_y2c19x.png",
+    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1689407329/po22_zzrflq.jpg",
     title: "neet",
   },
   {
-    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1686227191/1_yrbutr.png",
+    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1689407329/po1_grcu5e.png",
     title: "fraud",
   },
   {
-    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1687384431/1686825856-neet_results_pre-signup-web-01_fcfe83.jpg",
+    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1689407330/po3_xz10wd.jpg",
     title: "topper",
-  },
-  {
-    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1687384431/1685983554-jee_pre_signup_web_banner_17-may_1_-min_g9blff.jpg",
-    title: "jee",
-  },
-  {
-    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1687384431/1687268466-new_defence_batches_new_defence_batches-01-min_ns83ye.jpg",
-    title: "defence",
-  },
-  {
-    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1687384430/1685982734-artboard_7-8_2_ajcmr2.png",
-    title: "bank",
-  },
-  {
-    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1687384430/1685982416-artboard_6-8_2_bpemno.png",
-    title: "teacher",
   },
 ];
 

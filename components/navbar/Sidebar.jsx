@@ -108,7 +108,7 @@ function Sidebar({ isMounted, unmount }) {
             light
           >
             {" "}
-            <span className="text-primary font-bold text-lg ">
+            <span className="text-primary font-bold text-2xl ">
               Admission
             </span>{" "}
           </Dropdown.Button>
@@ -144,7 +144,7 @@ function Sidebar({ isMounted, unmount }) {
             light
           >
             {" "}
-            <span className="text-primary font-bold text-lg">
+            <span className="text-primary font-bold  text-2xl ">
               Student Corner
             </span>{" "}
           </Dropdown.Button>
@@ -203,7 +203,7 @@ function Sidebar({ isMounted, unmount }) {
             light
           >
             {" "}
-            <span className="text-primary font-bold text-lg">
+            <span className="text-primary font-bold  text-2xl ">
               Downloads
             </span>{" "}
           </Dropdown.Button>

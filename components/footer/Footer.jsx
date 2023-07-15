@@ -10,20 +10,18 @@ import instagram from "@/assets/instagram.png";
 import youtube from "@/assets/youtube.png";
 
 const Footer = () => (
-  <div className="bg-[#212324] mb-0">
-    <section
-      className={`${styles.flexCenter} ${styles.paddingY} flex-col m-10 `}
-    >
+  <div className="bg-[#212324] ">
+    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col    `}>
       <div
         className={`${styles.flexStart} flex flex-row md:flex-row  mb-8 w-full`}
       >
-        <div className="flex-[1] flex flex-col justify-start mt-16 mr-10">
+        <div className="flex-[1] flex flex-col justify-start mt-16 mr-15 ">
           <Link href="/" legacyBehavior>
             <a className="flex  flex-col">
               <Image
                 src={Logo}
                 alt="FiitJee"
-                className="w-[166px] h-[92.14px] object-contain"
+                className="w-[166px] h-[92.14px] object-contain ml-5"
               />
               {/* <span className="ml-2">Dhanbad Center</span> */}
             </a>
@@ -59,10 +57,7 @@ const Footer = () => (
               <li
                 className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}
               >
-                <Link
-                  href="https://fiitjeedhanbad.com/about.html"
-                  legacyBehavior
-                >
+                <Link href="/about" legacyBehavior>
                   <a className="text-white hover:text-red" target="_blank">
                     About Us
                   </a>
@@ -162,8 +157,9 @@ const Footer = () => (
               Address
             </h4>
             <span className={`overflow-auto`}>
-              Tara Apartment, Plot No. 2311-2313, <br /> Mouza saraidhela,{" "}
-              <br /> Dhanbad, Jharkhand, 828127
+              City Centre, B-1, Second Floor, <br /> Sector 4, Bokaro Steel
+              City, <br />
+              Jharkhand 827004
             </span>
             <div className="flex gap-3 mt-2">
               <a href="tel:+917280005056" target="_blank">
