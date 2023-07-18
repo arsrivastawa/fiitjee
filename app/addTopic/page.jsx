@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
@@ -6,8 +8,6 @@ import "react-toastify/dist/ReactToastify.css";
 export default function AddTopic() {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
 
   const router = useRouter();
 
@@ -16,11 +16,6 @@ export default function AddTopic() {
 
     if (!title || !description) {
       alert("Title and description are required.");
-      return;
-    }
-
-    if (email !== "fiitjeebokaro@gmail.com" || password !== "fiitjee") {
-      alert("Invalid credentials.");
       return;
     }
 
@@ -74,22 +69,6 @@ export default function AddTopic() {
             className="border border-slate-500 px-8 py-2 rounded-lg"
             type="text"
             placeholder="Add Link"
-          />
-
-          <input
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
-            className="border border-slate-500 px-8 py-2 rounded-lg"
-            type="email"
-            placeholder="Email"
-          />
-
-          <input
-            onChange={(e) => setPassword(e.target.value)}
-            value={password}
-            className="border border-slate-500 px-8 py-2 rounded-lg"
-            type="password"
-            placeholder="Password"
           />
 
           <button
