@@ -81,18 +81,15 @@ const Footer = () => (
             <h4
               className={`flex flex-col text-2xl ss:my-0 my-4 min-w-[150px] text-yellow sm:text-sm`}
             >
-              Competitive Exams
+              Student Corner
             </h4>
             <ul className="list-none ">
               <li
                 className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}
               >
-                <Link
-                  href="https://fiitjeedhanbad.com/competitive/jeeadvanced.html"
-                  legacyBehavior
-                >
+                <Link href="/notice" legacyBehavior>
                   <a className="text-white hover:text-red" target="_blank">
-                    JEE Advanced
+                    Notice
                   </a>
                 </Link>
               </li>
@@ -100,35 +97,29 @@ const Footer = () => (
                 className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}
               >
                 <Link
-                  href="https://fiitjeedhanbad.com/competitive/jeemains.html"
+                  href="https://www.fiitjee.com/downloads/jee-main-solutions-(earlier-aieee)"
                   legacyBehavior
                 >
                   <a className="text-white hover:text-red" target="_blank">
-                    JEE Mains
+                    Previous Year Solution
                   </a>
                 </Link>
               </li>
               <li
                 className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}
               >
-                <Link
-                  href="https://fiitjeedhanbad.com/competitive/ntse.html"
-                  legacyBehavior
-                >
+                <Link href="https://www.iitjeetoppers.com/" legacyBehavior>
                   <a className="text-white hover:text-red" target="_blank">
-                    NTES
+                    Past Results
                   </a>
                 </Link>
               </li>
               <li
                 className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer`}
               >
-                <Link
-                  href="https://fiitjeedhanbad.com/competitive/olympiads.html"
-                  legacyBehavior
-                >
+                <Link href="/contact-us" legacyBehavior>
                   <a className="text-white hover:text-red" target="_blank">
-                    Olympiads
+                    Contact Us
                   </a>
                 </Link>
               </li>
