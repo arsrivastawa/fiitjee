@@ -35,7 +35,7 @@ const Navbarrrr = () => {
                 alt="phone"
                 className="sm:hidden h-[1.7rem] w-[1.7rem]"
               />
-              <span className="font-bold">+91 8207637632</span>
+              <span className="font-bold">+91 9835525520</span>
             </div>
             <div className="flex gap-5">
               <Image
@@ -43,15 +43,7 @@ const Navbarrrr = () => {
                 alt="phone"
                 className="sm:hidden h-[1.7rem] w-[1.7rem]"
               />
-              <span className="font-bold">+91 8207637632</span>
-            </div>
-            <div className="flex gap-5">
-              <Image
-                src={telephone}
-                alt="phone"
-                className="sm:hidden h-[1.7rem] w-[1.7rem]"
-              />
-              <span className="font-bold">+91 8207637632</span>
+              <span className="font-bold">+91 9835325511</span>
             </div>
           </div>
         </div>
@@ -64,23 +56,7 @@ const Navbarrrr = () => {
                 alt="phone"
                 className="sm:hidden h-[1.7rem] w-[1.7rem]"
               />
-              <span className="font-bold">fiitjeebokaro@gmail.com</span>
-            </div>
-            <div className="flex gap-5">
-              <Image
-                src={gmail}
-                alt="phone"
-                className="sm:hidden h-[1.7rem] w-[1.7rem]"
-              />
-              <span className="font-bold">fiitjeebokaro@gmail.com</span>
-            </div>
-            <div className="flex gap-5">
-              <Image
-                src={gmail}
-                alt="phone"
-                className="sm:hidden h-[1.7rem] w-[1.7rem]"
-              />
-              <span className="font-bold">fiitjeebokaro@gmail.com</span>
+              <span className="font-bold">info.bokaro@fiitjee.com</span>
             </div>
           </div>
         </div>
