@@ -18,7 +18,15 @@ export const navItem = [
 
 export const slides = [
   {
+    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1689700498/banner_bf5vxq.jpg",
+    title: "neet",
+  },
+  {
     url: "https://res.cloudinary.com/du196ag4l/image/upload/v1689407329/po22_zzrflq.jpg",
+    title: "neet",
+  },
+  {
+    url: "https://res.cloudinary.com/du196ag4l/image/upload/v1689700498/banner2_ii7yjn.png",
     title: "neet",
   },
   {

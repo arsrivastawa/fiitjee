@@ -7,6 +7,7 @@ import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Founder from "@/components/Founder";
 import Test from "@/components/Home/Test";
+import Result from "@/components/Result";
 export const metadata = {
   title: "FIITJEE Bokaro Center",
 
@@ -19,6 +20,7 @@ export default function Home() {
       <Slider slides={slides} />
       <AboutUs />
       <WhyUS />
+      <Result />
       <Achivers />
       <Founder />
       <Testimonials />

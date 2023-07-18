@@ -14,7 +14,7 @@ const WhyUS = () => {
           <h1 className="text-red text-3xl items-center font-bold p-4">
             Why FIITJEE?
           </h1>
-          <h2 className="text-5xl font-bold sm:text-3xl">
+          <h2 className="text-5xl font-bold sm:text-3xl text-center">
             Empowering Study Efforts with <br /> Simplicity and Convenience
           </h2>
         </div>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Test = () => {
   return (
-    <div className="bg-[#F7F8FC]  pb-10">
+    <div className="bg-yellow  pb-10">
       <div className="p-[2rem] ml-[10rem]  sm:p-0 sm:ml-2">
         <div className="herder p-4 text-5xl  sm:text-3xl font-bold sm:p-3 ">
           Admission Test <span className="text-red">Dates</span>
