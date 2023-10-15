@@ -282,12 +282,12 @@ function Sidebar({ isMounted, unmount }) {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <Link href="http://bokaro.fiitjeenao.com/" className="p-4">
+        <Link href="http://bokaro.fiitjeenao.com/" className="">
           <button className="p-3 text-sm rounded-md text-primary-light bg-red ">
             Student Login
           </button>
         </Link>
-        <Link href="/addTopic" className="p-4">
+        <Link href="/addTopic" className="">
           <button className="p-3 text-sm rounded-md text-primary-light bg-red ">
             Admin login
           </button>
