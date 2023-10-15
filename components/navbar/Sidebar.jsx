@@ -282,6 +282,16 @@ function Sidebar({ isMounted, unmount }) {
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+        <Link href="http://bokaro.fiitjeenao.com/" className="p-4">
+          <button className="p-3 text-sm rounded-md text-primary-light bg-red ">
+            Student Login
+          </button>
+        </Link>
+        <Link href="/addTopic" className="p-4">
+          <button className="p-3 text-sm rounded-md text-primary-light bg-red ">
+            Admin login
+          </button>
+        </Link>
         <Link href="/contact-us" legacyBehavior>
           <a className={styles.navLink} target="_blank">
             Contact Us

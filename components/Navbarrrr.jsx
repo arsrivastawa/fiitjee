@@ -59,9 +59,18 @@ const Navbarrrr = () => {
               <span className="font-bold">info.bokaro@fiitjee.com</span>
             </div>
           </div>
-        </div>
-        <div className="p-4 invisible">
-          <button>he</button>
+          <div className="mt-5 ml-[-2rem]">
+            <Link href="http://bokaro.fiitjeenao.com/" className="p-4">
+              <button className="p-3 text-sm rounded-md text-primary-light bg-red ">
+                Student Login
+              </button>
+            </Link>
+            <Link href="/addTopic" className="p-4">
+              <button className="p-3 text-sm rounded-md text-primary-light bg-red ">
+                Admin login
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
