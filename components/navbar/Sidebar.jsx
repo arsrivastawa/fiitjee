@@ -73,7 +73,7 @@ function Sidebar({ isMounted, unmount }) {
       <div className={styles.navbar}>
         <div>
           <Link href="/" legacyBehavior>
-            <a className="flex items-center" onClick={unmount}>
+            <a className="flex items-center" onClick={unmount} target="_blank">
               <Image
                 src={Logo}
                 alt="HnCC"
@@ -120,7 +120,7 @@ function Sidebar({ isMounted, unmount }) {
             color={"error"}
           >
             <Dropdown.Item key="new" description="Register for the course">
-              <Link href="/course" className="font-bold ">
+              <Link href="/course" className="font-bold " target="_blank">
                 Course <span className="invisible">Lorem, ipsum </span>
               </Link>
             </Dropdown.Item>
@@ -130,6 +130,7 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://www.fiitjee.com/admission"
                 className="font-bold "
+                target="_blank"
               >
                 Admission Process
               </Link>
@@ -156,7 +157,7 @@ function Sidebar({ isMounted, unmount }) {
             aria-label="Actions"
           >
             <Dropdown.Item>
-              <Link href="/notice" className="font-bold ">
+              <Link href="/notice" className="font-bold " target="_blank">
                 Notice
               </Link>
             </Dropdown.Item>
@@ -166,6 +167,7 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://www.fiitjee.com/admission"
                 className="font-bold "
+                target="_blank"
               >
                 Previous Year Solution
               </Link>
@@ -176,13 +178,14 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://www.iitjeetoppers.com/"
                 className="font-bold "
+                target="_blank"
               >
                 Past Results
               </Link>
             </Dropdown.Item>
             <Dropdown.Item>
               {" "}
-              <Link href="/faq" className="font-bold ">
+              <Link href="/faq" className="font-bold " target="_blank">
                 FAQ's
               </Link>
             </Dropdown.Item>
@@ -218,6 +221,7 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://fiitjee.com/downloads/e-brochures"
                 className="font-bold "
+                target="_blank"
               >
                 E-Brochures
               </Link>
@@ -230,6 +234,7 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://www.fiitjeesouthdelhi.co.in/web-docs/Registration-Form.pdf"
                 className="font-bold "
+                target="_blank"
               >
                 Registeration Form
               </Link>
@@ -240,6 +245,7 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://fiitjee.com/downloads/enrollment-forms"
                 className="font-bold "
+                target="_blank"
               >
                 Enrollment Form
               </Link>
@@ -249,6 +255,7 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_27.pdf"
                 className="font-bold "
+                target="_blank"
               >
                 Transfer Form
               </Link>
@@ -258,6 +265,7 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_21.pdf"
                 className="font-bold mt-5 "
+                target="_blank"
               >
                 Tuition Fee Waiver Affidavit
               </Link>
@@ -267,6 +275,7 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_28.pdf"
                 className="font-bold mt-5 "
+                target="_blank"
               >
                 Format for Claim of Scholarship
               </Link>
@@ -276,18 +285,19 @@ function Sidebar({ isMounted, unmount }) {
               <Link
                 href="https://cms.fiitjee.com/Resources/DownloadCentre/Document_Pdf_19.pdf"
                 className="font-bold "
+                target="_blank"
               >
                 Application Form for FIITJEE Awards
               </Link>
             </Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
-        <Link href="http://bokaro.fiitjeenao.com/" className="">
+        <Link href="http://bokaro.fiitjeenao.com/" className="" target="_blank">
           <button className="p-3 text-sm rounded-md text-primary-light bg-red ">
             Student Login
           </button>
         </Link>
-        <Link href="/addTopic" className="">
+        <Link href="/addTopic" className="" target="_blank">
           <button className="p-3 text-sm rounded-md text-primary-light bg-red ">
             Admin login
           </button>
